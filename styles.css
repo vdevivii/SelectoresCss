@@ -1,0 +1,65 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 145, 1);
+}
+p{
+    color: orange;
+}
+.CAJA{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+}
+.otraCaja{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 255,0.4);
+    position: inherit;
+}
+.unacajamas{
+    width: 150px;
+    height: 150px;
+    background-color: #1200aa;
+}
+.capybara{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 100%, 50%);
+}
+
+*{
+    color: green;
+    font-weight: bolder;
+}
+
+#soy_unico{
+    width: 250px;
+    height: 50px;
+    background-color: hsl(218, 38%, 54%);
+}
+a[title]
+{
+    color: rgb(0, 26, 255);
+   
+}
+button:hover{
+    background-color: yellow;
+    color: rebeccapurple;
+}
+input:disabled{
+    background-color: black;
+}
+p::first-line{
+    
+    color: rebeccapurple;
+
+}p::first-letter{
+    color: red;
+    font-size: 45px;
+}
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
